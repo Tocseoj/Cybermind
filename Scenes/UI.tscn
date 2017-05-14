@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=1]
 
-[ext_resource path="res://Art/UI/dialogue_ui_back.png" type="Texture" id=1]
-[ext_resource path="res://Art/UI/Emil.png" type="Texture" id=2]
-[ext_resource path="res://Art/UI/dialogue_ui_front.png" type="Texture" id=3]
-[ext_resource path="res://Art/pixel.fnt" type="BitmapFont" id=4]
-[ext_resource path="res://Art/UI/scroll_arrow.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Art/UI/Dialogue/dialogue_ui_back.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Art/UI/Dialogue/Emil.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Art/UI/Dialogue/dialogue_ui_front.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Fonts/pixel.fnt" type="BitmapFont" id=4]
+[ext_resource path="res://Assets/Art/UI/Dialogue/scroll_arrow.png" type="Texture" id=5]
 
 [node name="UI" type="Control"]
 
