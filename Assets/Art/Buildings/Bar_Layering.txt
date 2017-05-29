@@ -1,0 +1,67 @@
+// Here are all of the layers
+// For the 4-shots bar, Different
+// Layers are turned on and off
+// Depending on which room the
+// player is currently in.
+
+// Use example images to place
+// Objects, I will be adding
+// more variation to items so
+// it doesn't feel as cut/paste
+// so expect table_2 and table_3 
+// etc. down the road
+
+
+Layer Order : (Top->Bottom)
+Neon_Sign_4Shots
+Building_Exterior
+Exterior_Wall_Line
+Overlay_WomensBR
+OverLay_MensBR
+OverLay_BackRoom
+Overlay_MainBar
+Main_Bar
+Bar_Back
+Door_BackRoom
+Walls_Front
+Door_GirlsBR
+Door_MensBR
+*main bar objects
+*back room objects
+Back_Wall
+*bathroom objects (womens)
+*bathroom objects (mens)
+Bathroom_Floor
+Floor
+
+
+
+Always on :
+Floor
+Exterior Wall Line
+
+Backroom :
+Overlay_BackRoom
+Back Wall
+*Objects in Back Room
+Floor
+Exterior Wall Line
+Back Room Door
+
+Main Bar : 
+Walls Front
+Door_GirlsBR
+Door_BoysBR
+*main bar objects
+Bar Area
+Back Room Door
+Overlay_MainBar
+Exterior Wall Line
+
+Bathrooms :
+Overlay_Bathroom(GUY/GIRL)
+Door for Bathroom
+*bathroom objects
+Bathroom Floor
+Back_Wall
+Exterior_wall_Line
